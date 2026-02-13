@@ -1,12 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
 
 export const dynamic = 'force-dynamic';
 
-const prisma = new PrismaClient();
-
 export async function POST(request: NextRequest) {
   try {
+    // Dynamic import to avoid build-time initialization
+    const { getDbClient } = await import('@/lib/db');
+    const prisma = getDbClient();
+
     const body = await request?.json();
 
     const {
