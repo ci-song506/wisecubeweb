@@ -42,12 +42,12 @@ export default function Footer() {
                 href="mailto:admin@wise-cube.com.au"
                 className="text-foreground hover:text-primary transition-colors"
               >
-                admin@wise-cube.com.au
+                admin@wisecubetech.com
               </a>
               <p className="text-foreground">
-                231 Mountbatten Road,<br />
-                Block B #03-03A,<br />
-                Singapore 397999
+                61 UBI ROAD 1,<br />
+                #02-38, OXLEY BIZHUB,<br />
+                SINGAPORE 408727
               </p>
             </div>
           </div>
@@ -55,9 +55,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Locations</h3>
             <div className="flex flex-col space-y-2">
-              <p className="text-foreground">Singapore (HQ)</p>
-              <p className="text-foreground">Hong Kong</p>
-              <p className="text-foreground">Sydney</p>
+              <p className="text-foreground">Singapore</p>
             </div>
           </div>
         </div>
