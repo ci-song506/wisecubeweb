@@ -14,7 +14,7 @@ export default function TechnologyPartners() {
     },
     {
       name: 'Kaytus',
-      logo: 'https://cdn.abacus.ai/images/a5e20f2b-a524-4ef2-9cf4-5fd75bd42aae.png',
+      logo: 'https://pbs.twimg.com/profile_images/1674703690433970181/0Poi0BSz_400x400.jpg',
     },
     {
       name: 'GIGABYTE',
