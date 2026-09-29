@@ -36,14 +36,6 @@ export default function TechnologyPartners() {
       name: 'Dell Technologies',
       logo: 'https://cdn.abacus.ai/images/ad21dd1d-606f-435f-a006-6618ac6a436c.png',
     },
-    {
-      name: 'H3C',
-      logo: 'https://cdn.abacus.ai/images/80191fb5-487a-45f3-8e77-cf35a36e2333.png',
-    },
-    {
-      name: 'Bluechip',
-      logo: 'https://cdn.abacus.ai/images/846aec69-3fd8-4345-aa80-08d4aa37fc75.png',
-    },
   ];
 
   return (
